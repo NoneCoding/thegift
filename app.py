@@ -9,4 +9,3 @@ def check_date():
     ans = "É hoje!" if dt == "2023-09-17" else "Ainda não!"
 
     return render_template("index.html", ans=ans)
-
